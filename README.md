@@ -32,5 +32,16 @@ pip install -r requirements.txt
 # Run the expert engine
 python main.py
 
+⚠️ Technical Note & Disclaimer
+This project is a Proof of Concept (PoC) demonstrating a professional data automation architecture.
+
+Anti-Scraping Measures: As of early 2026, certain major platforms (like Amazon) utilize advanced browser fingerprinting and AI-driven bot detection.
+
+Current Capability: This script is optimized for architectural demonstration and lightweight data processing.
+
+Production Scaling: For high-frequency or large-scale extraction tasks that bypass "Robot Checks," additional modules such as Residential Proxies or Headless Browser Engines (Selenium/Playwright) can be integrated upon request.
+
+The core value of this suite lies in its robust Pandas-driven data cleaning pipeline, ensuring that any successfully captured data is immediately ready for business analysis.
+
 🛡️ Disclaimer
 This project is developed for educational and professional demonstration purposes. It adheres to ethical scraping guidelines and includes built-in rate-limiting logic to respect target server resources.
